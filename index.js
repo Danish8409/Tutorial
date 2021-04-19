@@ -28,14 +28,14 @@ client.on('ready', () => {
 }); 
 client.on('message', async message => {
   if(message.content === "Halo") {
-    message.reply(`ello, jika kamu butuh bantuan ketik saja m!help`
+    message.reply(`Hi, if you need help just type your prefix here`
     );
   
   };
  
-    let prefix = "m!"
+    let prefix = "your prefix here"
 
-if(message.content.startsWith('M!')) prefix = 'M!'
+if(message.content.startsWith('your 2nd prefix here')) prefix = 'your 2nd prefix here'
 
 if(!message.content.startsWith(prefix)) return null;
 	
